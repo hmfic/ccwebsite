@@ -1,0 +1,391 @@
+/* Custom CSS
+ * --------------------------------------- */
+body{
+	font-weight: 300;
+	overflow-x: hidden;
+    	margin: 0;
+    	font-weight: normal;
+    	font-family: 'Montserrat', sans-serif;
+    	font-size: 12px;
+    	line-height: 220%;
+	color: #666666;
+}
+
+.nav > li > a {
+	position: relative;
+	display: block;
+	padding: 0px;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #666666;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: lightgray;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.navbar-nav > li > a {
+	color: black;
+}
+
+li {
+  display: inline;
+    float: right;
+    padding-left: 24px;
+    position: relative;
+    top:50%;
+    margin-top: 38px;
+}
+
+
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+color: #ffa300;
+background-color: white;
+}
+
+a {
+    display: block;
+    color: black;
+    font-weight: 300;
+    font-size: 10px;
+	letter-spacing: -.01em;
+}
+
+.btn-default {
+    background-color: orange;
+    border-radius: 0px;
+}
+
+.input-sm {
+    background-color: #444444;
+    border-radius: 0px;
+    border-width: 0px;
+    color: #f3f3f3;
+}
+
+.white-text {
+    font-size: 11px;
+    color: #dddddd;
+}
+
+.container {
+    width: 100%;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.page-subtitle {
+    color: #f89e1b;
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+
+.realize-top-left {
+    position: relative;
+    top: 5%;
+    left: 23%;
+    width: 160px;
+    text-align: right;
+    z-index: 500;
+}
+
+.realize-top-right {
+    position: relative;
+    top: 5%;
+    left: 60%;
+    width: 160px;
+    text-align: left;
+}
+
+/* ---------------- SECTION ---------------------- */
+
+.section1 {
+  height: 95%;
+  background:url("/images/Rockets.png") no-repeat 50% 55%, -webkit-linear-gradient(#f8ac1b,#fb9b1b); 
+}
+
+.section-white {
+  background-color: white;
+}
+
+.section-dark {
+  background-color: #242424;
+}
+
+.section-light-gray {
+  background-color: #f3f5f8;
+}
+
+.section-bg {
+  background: url("/images/background.png") no-repeat 50% 50%;
+}
+
+.section-title{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    padding-top: 60px;
+    width: 100%;
+    text-align: center;
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+    z-index:999;
+}
+
+.section-title-white{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    padding-top: 60px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    z-index:999;
+}
+/* ---------------- HOME ---------------------- */
+.home-page-title {
+    position: absolute;
+    top: 120;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: -3px 2px 1px rgb(227,142,34);
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern";
+    -webkit-font-feature-settings: "kern";
+    -moz-font-feature-settings: "kern";
+    -moz-font-feature-settings: "kern=1";
+}
+
+.home-page-subtitle {
+    position: absolute;
+    top: 190;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.home-page-bottom {
+    position: absolute;
+    left: 0;
+    bottom:5%;
+    width: 100%;
+    background:url("/images/Big_Graph.png") no-repeat 50% 50% transparent;
+    height:276px;
+    z-index: 50;
+}
+
+/* -------------------------- top menu bar ------------------------- */
+
+
+.navbar-nav.navbar-right:last-child {
+	margin-right: 80px;
+	line-height: 100%;
+	color: black;
+}
+
+.navbar-default {
+	background-color: white;
+	border-bottom-color: orange;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+	height: 86px;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+	width: 181px;
+    margin-left: 200px;
+    margin-top: 8px;
+    height: 66px;
+    background: url(/images/logo.png) no-repeat 50% 50%;
+    display: block;
+    z-index: 100;
+}
+
+.home-page-logo{
+//    float: left;
+    width: 181px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    height: 64px;
+    background: url(/images/logo.png) no-repeat 50% 50%;
+    display: block;
+    z-index: 100;
+}
+
+.copyright {
+	text-align: center;
+	background-color: #f3f5f8;
+	font-size: 9px;
+	color: #444444;
+	font-family: arial, sans-serif;
+	}
+
+.home-page-down {
+    width: 30px;
+    height: 20px;
+    bottom:5%;
+    position: absolute;
+    margin-left: 49%;
+    margin-right: 49%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    text-align: center;
+    background: url(/images/arrow-down-dark.png) no-repeat 50% 70% white;
+    z-index: 800;
+}
+
+.page-down-black {
+    width: 30px;
+    height: 20px;
+    bottom:10%;
+    text-align: center;
+    margin-left: 49%;
+    margin-right: 49%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background: url(/images/arrow-down-white.png) no-repeat 50% 70% black;
+}
+
+.page-down-white {
+    width: 30px;
+    height: 20px;
+    bottom:10%;
+    text-align: center;
+    margin-left: 49%;
+    margin-right: 49%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background: url(/images/arrow-down-dark.png) no-repeat 50% 70% white;
+}
+
+.page-down-gray {
+    width: 30px;
+    height: 20px;
+    bottom:10%;
+    text-align: center;
+    margin-left: 49%;
+    margin-right: 49%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background: url(/images/arrow-down-dark.png) no-repeat 50% 70% #f3f5f8;
+}
+
+.page-down-orange {
+    width: 30px;
+    height: 20px;
+    bottom:10%;
+    text-align: center;
+    margin-left: 49%;
+    margin-right: 49%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background: url(/images/arrow-down-dark.png) no-repeat 50% 70% orange;
+}
+
+.page2-graphic {
+    height: 145px; 
+    background: url(/images/Clouds.png) no-repeat 50% 50%;
+    display: block;
+}
+
+.page2-text {
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: center;
+    color: #666666;
+    padding-bottom: 40px;
+}
+
+.page3-graphic {
+    background: url(/images/software.png) no-repeat 50% 50%;
+    display: block;
+	height: 193px;
+	margin-bottom: 40px;
+}
+.page3-text {
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.page4-graphic {
+
+    background: url(/images/Problems.png) no-repeat 50% 60% #f3f5f8;
+   /* margin-bottom: 50px; */
+    z-index:700;
+
+}
+
+.page4-text {
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: center;
+    color: #666666;
+    padding-bottom: 40px;
+}
+
+.page5-graphic {
+    margin-top: 50px;
+    height: 263px;
+    background: url(/images/product.png) no-repeat 50% 50%;
+    display: block;
+}
+
+.twitter {
+    height: 50px;
+    width: 50px;
+    background: url(/images/twitter.png) no-repeat 50% 50% white;
+    border-radius: 5px;
+    display: inline;
+    float: left;
+    position: relative;
+    margin-left: 30px;
+}
+
+.linkedin {
+    height: 50px;
+    width: 50px;
+    background: url(/images/linked_in.png) no-repeat 50% 50% white;
+    border-radius: 5px;
+    display: inline;
+    float: left;
+    position: relative;
+}
+
+<!--   validator    -->
+
+.has-success .help-block, .has-success .control-label, .has-success .radio, .has-success .checkbox, .has-success .radio-inline, .has-success .checkbox-inline {
+color: white;
+}
+
+.has-error .help-block, .has-error .control-label, .has-error .radio, .has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline {
+color: yellow;
+}
